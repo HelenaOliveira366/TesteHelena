@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Importação do JS, a palavra-chave "defer" define que o JS será carregado depois do HTML, 
+            sem ela o script é carregado antes e tem-se problemas com dados nulos-->
+        <script src="./one.js" defer></script>
+
+        <title>Exibir valores do JS</title>
+    </head>
+    <body>
+        <h1>Exibir valores do JS</h1>
+        <p>Criar página HTML para mostrar os dados que estão no JavaScript</p>
+
+        <h3>Pelo Identificador</h3>
+        <p id="one"></p>
+
+        <h3>Pelo Nome</h3>
+        <p name="two"></p>
+
+        <h3>Pela Classe</h3>
+        <p class="three"></p>
+    </body>
+</html>
